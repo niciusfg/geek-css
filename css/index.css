@@ -1,4 +1,41 @@
+:root {
+  --bg-color-primary-normal: #858585;
+}
+
 .hero {
   width: 100vw;
-  background-image: url();
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../img/placehold.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.hero h1 {
+  text-transform: uppercase;
+}
+
+section {
+}
+.flex-reverse {
+  flex-direction: row-reverse;
+}
+.preview {
+  width: 50%;
+  padding: 25px 0;
+  text-align: center;
+}
+.preview img {
+  border-radius: 50%;
+}
+.content {
+  width: 50%;
+  background-color: var(--bg-color-primary-normal);
+}
+.inner-text {
+  height: 100%;
+  padding: 0 10%;
+  flex-direction: column;
+  justify-content: center;
 }
